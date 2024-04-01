@@ -10,6 +10,7 @@ int main() {
   // ceil(5.2) = 6
   // have to include lib cmath
   // cout << pow(5,4) (this is the exponoents to 5 to the power of 4)
+  // cout <<log10(10) 
   
   std::cout << "Hello World!\n";
 
