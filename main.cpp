@@ -5,7 +5,7 @@ using namespace std;
 
 // add return type of the function. int, float, string etc. Does not return anything, return void. this will not print
 void message () {
-   cout << "this is a test message";
+   cout << "this is a test message" << endl;
 }
 
 
