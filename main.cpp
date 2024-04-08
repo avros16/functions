@@ -5,6 +5,18 @@ using namespace std;
 //delcare a function but define under main VV
 // -- void  welcome_message();
 
+
+
+
+//takes and gives
+int ret_sq (int num) {
+  int sq{0};
+  sq= num*num; 
+  
+return sq;
+}
+
+
 //defining a function. void cauuse it doesnt give anything. no input no output function
 void welcome_message(){
   
@@ -27,13 +39,17 @@ sum = num1 + num2;
 
  int main() {
 
-
+int catch_sq;
+   
    //call function 
    welcome_message(); // semicolon
    int num1 =5;
    int num2 =3;
    //call function
    add_func(num1,num2);
+   //call function 
+   catch_sq = ret_sq(4);
+   cout << catch_sq; 
    
  
 }
