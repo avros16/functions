@@ -29,6 +29,7 @@
 //functions come with (), inputs go inside the (). srand(time(null)) - inputs/parameters
 // have to include package <cmath>
    //. for a function you need:
+// -- function declaration 
 // 1. Function defintion - define function. take this, output that etc
    // 2. function calling - call the function 
 
